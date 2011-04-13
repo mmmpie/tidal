@@ -1,0 +1,213 @@
+/* --------------------------------------------------------------
+		Blueprint grid.css file for version 0.9.1
+		Width: 960px
+		Columns: 12		Column width: 69px
+		Gutter width: 12px
+		
+		This file was generated with GridCalc (http://www.problem.se/labs/gridcalc/)
+---------------------------------------------------------------*/
+
+/* --------------------------------------------------------------
+
+   grid.css
+   * Sets up an easy-to-use grid of 24 columns.
+
+   By default, the grid is 950px wide, with 24 columns
+   spanning 30px, and a 10px margin between columns.
+
+   If you need fewer or more columns, namespaces or semantic
+   element names, use the compressor script (lib/compress.rb)
+
+-------------------------------------------------------------- */
+
+/* A container should group all your columns. */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Use this class on any .span / container to see the grid. */
+.showgrid {
+  background: url(grid.png);
+}
+
+
+/* Columns
+-------------------------------------------------------------- */
+
+/* Sets up basic grid floating and margin. */
+.column, .span-1, .span-2, .span-3, .span-4, .span-5, .span-6, .span-7, .span-8, .span-9, .span-10, .span-11, .span-12 {
+  float: left;
+  margin-right: 12px;
+}
+
+/* The last column in a row needs this class. */
+.last { margin-right: 0; }
+
+/* Use these classes to set the width of a column. */
+.span-1 {width: 69px;}
+.span-2 {width: 150px;}
+.span-3 {width: 231px;}
+.span-4 {width: 312px;}
+.span-5 {width: 393px;}
+.span-6 {width: 474px;}
+.span-7 {width: 555px;}
+.span-8 {width: 636px;}
+.span-9 {width: 717px;}
+.span-10 {width: 798px;}
+.span-11 {width: 879px;}
+.span-12 {width: 960px; margin-right: 0;}
+
+/* Use these classes to set the width of an input. */
+input.span-1, textarea.span-1, input.span-2, textarea.span-2, input.span-3, textarea.span-3, input.span-4, textarea.span-4, input.span-5, textarea.span-5, input.span-6, textarea.span-6, input.span-7, textarea.span-7, input.span-8, textarea.span-8, input.span-9, textarea.span-9, input.span-10, textarea.span-10, input.span-11, textarea.span-11, input.span-12, textarea.span-12 {
+  border-left-width: 1px;
+  border-right-width: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+input.span-1, textarea.span-1 {width: 57px;}
+input.span-2, textarea.span-2 {width: 138px;}
+input.span-3, textarea.span-3 {width: 219px;}
+input.span-4, textarea.span-4 {width: 300px;}
+input.span-5, textarea.span-5 {width: 381px;}
+input.span-6, textarea.span-6 {width: 462px;}
+input.span-7, textarea.span-7 {width: 543px;}
+input.span-8, textarea.span-8 {width: 624px;}
+input.span-9, textarea.span-9 {width: 705px;}
+input.span-10, textarea.span-10 {width: 786px;}
+input.span-11, textarea.span-11 {width: 867px;}
+input.span-12, textarea.span-12 {width: 948px;}
+
+/* Add these to a column to append empty cols. */
+
+.append-1 {padding-right: 81px;}
+.append-2 {padding-right: 162px;}
+.append-3 {padding-right: 243px;}
+.append-4 {padding-right: 324px;}
+.append-5 {padding-right: 405px;}
+.append-6 {padding-right: 486px;}
+.append-7 {padding-right: 567px;}
+.append-8 {padding-right: 648px;}
+.append-9 {padding-right: 729px;}
+.append-10 {padding-right: 810px;}
+.append-11 {padding-right: 891px;}
+
+/* Add these to a column to prepend empty cols. */
+
+.prepend-1 {padding-left: 81px;}
+.prepend-2 {padding-left: 162px;}
+.prepend-3 {padding-left: 243px;}
+.prepend-4 {padding-left: 324px;}
+.prepend-5 {padding-left: 405px;}
+.prepend-6 {padding-left: 486px;}
+.prepend-7 {padding-left: 567px;}
+.prepend-8 {padding-left: 648px;}
+.prepend-9 {padding-left: 729px;}
+.prepend-10 {padding-left: 810px;}
+.prepend-11 {padding-left: 891px;}
+
+/* Border on right hand side of a column. */
+.border {
+  padding-right: 5px;
+  margin-right: 6px;
+  border-right: 1px solid #eee;
+}
+
+/* Border with more whitespace, spans one column. */
+.colborder {
+  padding-right: 46px;
+  margin-right: 46px;
+  border-right: 1px solid #eee;
+}
+
+
+/* Use these classes on an element to push it into the
+next column, or to pull it into the previous column.  */
+
+.pull-1 {margin-left: -81px;}
+.pull-2 {margin-left: -162px;}
+.pull-3 {margin-left: -243px;}
+.pull-4 {margin-left: -324px;}
+.pull-5 {margin-left: -405px;}
+.pull-6 {margin-left: -486px;}
+.pull-7 {margin-left: -567px;}
+.pull-8 {margin-left: -648px;}
+.pull-9 {margin-left: -729px;}
+.pull-10 {margin-left: -810px;}
+.pull-11 {margin-left: -891px;}
+.pull-12 {margin-left: -972px;}
+
+.pull-1, .pull-2, .pull-3, .pull-4, .pull-5, .pull-6, .pull-7, .pull-8, .pull-9, .pull-10, .pull-11, .pull-12 {float: left; position:relative;}
+
+.push-1 {margin: 0 -81px 1.5em 81px;}
+.push-2 {margin: 0 -162px 1.5em 162px;}
+.push-3 {margin: 0 -243px 1.5em 243px;}
+.push-4 {margin: 0 -324px 1.5em 324px;}
+.push-5 {margin: 0 -405px 1.5em 405px;}
+.push-6 {margin: 0 -486px 1.5em 486px;}
+.push-7 {margin: 0 -567px 1.5em 567px;}
+.push-8 {margin: 0 -648px 1.5em 648px;}
+.push-9 {margin: 0 -729px 1.5em 729px;}
+.push-10 {margin: 0 -810px 1.5em 810px;}
+.push-11 {margin: 0 -891px 1.5em 891px;}
+.push-12 {margin: 0 -972px 1.5em 972px;}
+
+.push-1, .push-2, .push-3, .push-4, .push-5, .push-6, .push-7, .push-8, .push-9, .push-10, .push-11, .push-12 {float: right; position:relative;}
+
+
+/* Misc classes and elements
+-------------------------------------------------------------- */
+
+/* In case you need to add a gutter above/below an element */
+.prepend-top {
+  margin-top:1.5em;
+}
+.append-bottom {
+  margin-bottom:1.5em;
+}
+
+/* Use a .box to create a padded box inside a column.  */
+.box {
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  background: #E5ECF9;
+}
+
+/* Use this to create a horizontal ruler across a column. */
+hr {
+  background: #ddd;
+  color: #ddd;
+  clear: both;
+  float: none;
+  width: 100%;
+  height: .1em;
+  margin: 0 0 1.45em;
+  border: none;
+}
+
+hr.space {
+  background: #fff;
+  color: #fff;
+  visibility: hidden;
+}
+
+
+/* Clearing floats without extra markup
+   Based on How To Clear Floats Without Structural Markup by PiE
+   [http://www.positioniseverything.net/easyclearing.html] */
+
+.clearfix:after, .container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  overflow:hidden;
+}
+.clearfix, .container {display: block;}
+
+/* Regular clearing
+   apply to column that should drop below previous ones. */
+
+.clear { clear:both; }
