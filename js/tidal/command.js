@@ -1,4 +1,4 @@
-require.def("tidal/command", ["tidal/commands/open"],
+define( ["commands/open"],
 	function (keybindings, open) {
 	    console.log("loaded command");
 

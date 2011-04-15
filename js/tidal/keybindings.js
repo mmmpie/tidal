@@ -1,4 +1,4 @@
-﻿require.def("tidal/keybindings",
+define(
 	function () {
 	    var safariKeys = {
 	        63234   : "moveLeftChar",
@@ -46,11 +46,6 @@
             delete_right    :   "delete-right",
             new_line        :   "new-line"
         };
-
-        var actions = {
-            commandbar-activate     : 
-
-        }
 
 	    var keys = null;
 	    if ($.browser.msie) keys = ieKeys;
